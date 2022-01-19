@@ -18,8 +18,8 @@
         <section class="form box">
                 <form action="">
                     <label for="palavra">Insira apenas palavras minúsculas e sem acento</label>
-                    <input type="text" name="palavra" class="input" placeholder="Insira algo aqui">
-                    <input type="button" value="criptografar" class="btn">
+                    <input type="text" name="palavra" class="input" id="botao-cripto" placeholder="Insira algo aqui">
+                    <input type="button" value="criptografar" class="btn" onclick="criptografar()">
                     <input type="button" value="descriptografar" class="btn">
                 </form>
         </section>
@@ -27,7 +27,7 @@
         <section class="res box">
                 <form action="">
                     <label for="resultado">Mensagem Criptografada</label>
-                    <input type="text" name="resultado" class="input">
+                    <input type="text" name="resultado" class="input" id="sinput">
                     <input type="button" value="copiar" class="btn">
                 </form>
         <section>
@@ -35,5 +35,7 @@
     </main>
 
     <footer>Criado por <a href="https://github.com/rmrgomes" target="_blank">Romário Gomes</a></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
